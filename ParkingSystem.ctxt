@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ParkingSystem
+comment1.params=slotCode\ staffOnly
+comment1.target=boolean\ addSlot(java.lang.String,\ boolean)
+comment1.text=\n\ Adds\ a\ new\ parking\ slot\ to\ the\ system.\n\n\ @param\ slotCode\ the\ unique\ identifier\ for\ the\ new\ slot\n\ @param\ staffOnly\ true\ if\ the\ slot\ is\ designated\ for\ staff\ only,\ false\ otherwise\n\ @return\ true\ if\ the\ slot\ was\ added\ successfully,\ false\ if\ a\ slot\ with\ the\ same\ code\ already\ exists\n
+comment2.params=slotCode
+comment2.target=boolean\ removeSlot(java.lang.String)
+comment2.text=\n\ Removes\ a\ parking\ slot\ from\ the\ system.\n\n\ @param\ slotCode\ the\ unique\ identifier\ for\ the\ slot\ to\ be\ removed\n\ @return\ true\ if\ the\ slot\ was\ removed\ successfully,\ false\ if\ no\ such\ slot\ exists\n
+comment3.params=slotCode
+comment3.target=Slot\ getSlot(java.lang.String)
+comment3.text=\n\ Retrieves\ a\ parking\ slot\ by\ its\ unique\ identifier.\n\n\ @param\ slotCode\ the\ unique\ identifier\ for\ the\ desired\ slot\n\ @return\ the\ Slot\ object\ if\ found,\ null\ otherwise\n
+comment4.params=licensePlate
+comment4.target=Slot\ findAutoByLicensePlate(java.lang.String)
+comment4.text=\n\ Finds\ a\ parking\ slot\ by\ the\ license\ plate\ of\ the\ auto\ parked\ in\ it.\n\n\ @param\ licensePlate\ the\ license\ plate\ of\ the\ auto\ to\ find\n\ @return\ the\ Slot\ object\ containing\ the\ auto\ if\ found,\ null\ otherwise\n
+numComments=5

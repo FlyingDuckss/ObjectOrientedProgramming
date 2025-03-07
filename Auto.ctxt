@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Auto
+comment1.params=licensePlate\ ownerName\ isEmployee
+comment1.target=Auto(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\n\ Constructs\ an\ Auto\ object\ with\ the\ specified\ license\ plate,\ owner\ name,\n\ and\ employee\ status.\n\n\ @param\ licensePlate\ the\ unique\ license\ plate\ of\ the\ automobile\n\ @param\ ownerName\ the\ name\ of\ the\ owner\ of\ the\ automobile\n\ @param\ isEmployee\ true\ if\ the\ owner\ is\ an\ employee,\ false\ otherwise\n
+comment2.params=
+comment2.target=java.lang.String\ getLicensePlate()
+comment2.text=\n\ Retrieves\ the\ license\ plate\ of\ the\ automobile.\n\n\ @return\ the\ license\ plate\ of\ the\ auto\n
+comment3.params=
+comment3.target=java.lang.String\ getOwnerName()
+comment3.text=\n\ Retrieves\ the\ owner\ name\ of\ the\ automobile.\n\n\ @return\ the\ name\ of\ the\ owner\n
+comment4.params=
+comment4.target=boolean\ isEmployee()
+comment4.text=\n\ Checks\ if\ the\ owner\ of\ the\ automobile\ is\ an\ employee.\n\n\ @return\ true\ if\ the\ owner\ is\ an\ employee,\ false\ otherwise\n
+comment5.params=
+comment5.target=long\ computeHoursParked()
+comment5.text=\n\ Computes\ the\ total\ hours\ the\ automobile\ has\ been\ parked.\n\n\ @return\ the\ number\ of\ hours\ the\ auto\ has\ been\ parked\n
+comment6.params=
+comment6.target=double\ calculateCost()
+comment6.text=\n\ Calculates\ the\ total\ cost\ for\ parking\ based\ on\ the\ number\ of\ hours\ parked.\n\n\ @return\ the\ total\ cost\ of\ parking\n
+comment7.params=
+comment7.target=java.lang.String\ computeDurationParked()
+comment7.text=\n\ Computes\ the\ duration\ the\ automobile\ has\ been\ parked\ since\ it\ was\ parked.\n\n\ @return\ a\ formatted\ string\ representing\ the\ duration\ parked\ in\ HH\:MM\:SS\ format\n
+numComments=8

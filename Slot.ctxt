@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\n\ Represents\ a\ parking\ slot\ in\ the\ parking\ management\ system.\n\ Each\ slot\ can\ either\ be\ designated\ for\ staff\ or\ open\ to\ the\ public.\n\ The\ Slot\ class\ manages\ the\ parking\ of\ an\ auto\ and\ ensures\ compliance\ with\n\ parking\ rules\ based\ on\ the\ type\ of\ auto\ and\ the\ slot\ designation.\n
+comment1.params=slotCode\ staffOnly
+comment1.target=Slot(java.lang.String,\ boolean)
+comment1.text=\n\ Constructs\ a\ Slot\ with\ the\ specified\ slot\ code\ and\ designation.\n\n\ @param\ slotCode\ the\ unique\ identifier\ for\ the\ slot\n\ @param\ staffOnly\ true\ if\ the\ slot\ is\ designated\ for\ staff\ only,\ false\ otherwise\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\n\ Returns\ the\ unique\ identifier\ for\ this\ parking\ slot.\n\n\ @return\ the\ slot\ ID\n
+comment3.params=
+comment3.target=java.lang.String\ getSlotCode()
+comment3.text=\n\ Returns\ the\ slot\ code\ of\ this\ parking\ slot.\n\n\ @return\ the\ slot\ code\n
+comment4.params=
+comment4.target=boolean\ isStaffOnly()
+comment4.text=\n\ Checks\ if\ this\ slot\ is\ designated\ for\ staff\ only.\n\n\ @return\ true\ if\ the\ slot\ is\ staff-only,\ false\ otherwise\n
+comment5.params=
+comment5.target=Auto\ getParkedAuto()
+comment5.text=\n\ Returns\ the\ auto\ currently\ parked\ in\ this\ slot.\n\n\ @return\ the\ parked\ auto,\ or\ null\ if\ no\ auto\ is\ parked\n
+comment6.params=auto
+comment6.target=boolean\ parkAuto(Auto)
+comment6.text=\n\ Parks\ an\ auto\ in\ this\ slot\ if\ the\ slot\ is\ available\ and\ the\ auto\ complies\n\ with\ the\ slot's\ designated\ type.\n\n\ @param\ auto\ the\ auto\ to\ be\ parked\n\ @return\ true\ if\ the\ auto\ is\ parked\ successfully,\ false\ otherwise\n
+comment7.params=
+comment7.target=boolean\ removeAuto()
+comment7.text=\n\ Removes\ the\ auto\ from\ this\ slot.\n\n\ @return\ true\ if\ the\ auto\ was\ removed\ successfully,\ false\ if\ the\ slot\ was\ empty\n
+numComments=8
